@@ -1,10 +1,10 @@
-1. Triple DES
+## 1. Triple DES
 
    $$ciphertext = E_{k_3}(D_{k_2}(E_{k_1}(plaintext)))$$
 
    $$plaintext = D_{k_1}(E_{k_2}(D_{k_3}(ciphertext)))$$
 
-2. Weak keys in DES
+## 2. Weak keys in DES
 
    $$E_k(E_k(M)) = M$$
    
@@ -13,7 +13,7 @@
    - '0xE0E0E0E0F1F1F1F1'
    - '0x1F1F1F1F0E0E0E0E'
 
-3. `DES3.new(key, *args, **kwargs)`
+## 3. `DES3.new(key, *args, **kwargs)`
 
    - `key(byte string)`: The secret key to use in the symmetric cipher. It must be 16 or 24 bytes long. The parity bits will be ignored.
   
