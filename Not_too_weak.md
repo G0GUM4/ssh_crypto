@@ -10,7 +10,7 @@
    - 0xE0FEE0FEF1FEF1FE and 0xFEE0FEE0FEF1FEF1
 
 ## 풀이
-같은 키를 쓰면 안 된다. 따라서 semi-weak key를 사용한다.
+썼던 키를 또 쓰면 안 된다. 따라서 semi-weak key를 사용한다.
 
 1. `key1 = 011F011F010E010E`로 flag를 암호화한다.
 2. `key2 = 1F011F010E010E01`로 위에서 얻은 암호문을 다시 암호화한다.
