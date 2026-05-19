@@ -18,7 +18,7 @@
    - `key(byte string)`: The secret key to use in the symmetric cipher. It must be 16 or 24 bytes long. The parity bits will be ignored.
   
 
-# 풀이
+## 풀이
 
 1. `key = '0101010101010101FEFEFEFEFEFEFEFE'`로 FLAG를 암호화한다.
 2. 위에서 얻은 암호문을 똑같은 key로 다시 암호화한다.
