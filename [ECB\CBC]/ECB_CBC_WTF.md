@@ -10,3 +10,5 @@ $$ciphertext = (iv \\ || \\ C1 \\ || \\ C2)$$
    $$P1 = Dec(C1) \oplus iv$$
 
    $$P2 = Dec(C2) \oplus C1$$
+
+   $$Plaintext = P1 \\ || \\ P2$$
